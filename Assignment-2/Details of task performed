@@ -1,0 +1,21 @@
+ERD designed using Microsoft Visio. Solution is fully normalized in Boyce-Codd normal form(BCNF).
+Details:
+The creators of Silicon Valley have provided you with the following details regarding the
+structure of the show:
+• The show is comprised of episodes. Each episode has a title, a plot synopsis, a unique
+episode number, and an original broadcast date. Each episode is written by one or
+more writers, stars several actors, and is produced by one or more producers.
+• Writers have a name and an email address, while producers have a name and an office
+number.
+• Several characters appear in each episode. Each character is classified as primary,
+secondary, or tertiary. Primary characters appear in most of the episodes, secondary
+characters appear in at least two episodes, and tertiary characters appear in only one
+episode. Additional character classifications may be added in the future.
+• NOTE: The database itself does not need to automatically assign character
+categories, but it should be able to keep track of which characters belong to
+each category.
+• Each character has a name and a description, and is portrayed by an actor.
+• Actors have a name and an agent phone number. The creators of the series would like
+actors and characters to be tracked separately in the database.
+• For purposes of simplicity, you may assume that each actor plays just one character,
+and that each character is played by just one actor.
